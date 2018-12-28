@@ -39,7 +39,7 @@ The package includes all the following forms of documentation:
 
 - [ ] **The author has responded to my review and made changes to my satisfaction. I recommend approving this package.**
 
-Estimated hours spent reviewing: 4.6
+Estimated hours spent reviewing: 5.5
 
 ---
 
@@ -112,6 +112,12 @@ In find_file_name(years = year, type = type) :
 
 - Consider setting up a `pkgdown` site? It's easy to do and you can automate deployment with your Travis-CI so it's less to remember.
 
+#### Tests
+
+- I'm unclear how the interactive portion of the package functions is handled in testing? There are ways to handle this, but I don't see any implemented and when I run `devtools::test()` I'm asked to provide my own input.
+
+- Suggest using `skip_on_cran()` since some of the tests can take some time to execute due to download times.
+
 #### DESCRIPTION File
 
 - In the DESCRIPTION file, Mark's author entry is missing his ORCID.
@@ -121,6 +127,8 @@ In find_file_name(years = year, type = type) :
 - STATS19 should be in "'" in DESCRIPTION for CRAN, i.e., 'STATS19', I think.
 
 - Check spelling in DESCRIPTION file, see: "analysie"
+
+- The Description should include a link to the DfT website.
 
 #### README File(s)
 
