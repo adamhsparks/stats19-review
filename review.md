@@ -2,22 +2,22 @@
 
 *Please check off boxes as applicable, and elaborate in comments below.  Your review is not limited to these topics, as described in the reviewer guide*
 
-- [ ] As the reviewer I confirm that there are no [conflicts of interest](#coi) for me to review this work (If you are unsure whether you are in conflict, please speak to your editor _before_ starting your review).
+- [x] As the reviewer I confirm that there are no [conflicts of interest](#coi) for me to review this work (If you are unsure whether you are in conflict, please speak to your editor _before_ starting your review).
 
 #### Documentation
 
 The package includes all the following forms of documentation:
 
-- [ ] **A statement of need** clearly stating problems the software is designed to solve and its target audience in README
-- [ ] **Installation instructions:** for the development version of package and any non-standard dependencies in README
-- [ ] **Vignette(s)** demonstrating major functionality that runs successfully locally
-- [ ] **Function Documentation:** for all exported functions in R help
-- [ ] **Examples** for all exported functions in R Help that run successfully locally
-- [ ] **Community guidelines** including contribution guidelines in the README or CONTRIBUTING, and DESCRIPTION with `URL`, `BugReports` and `Maintainer` (which may be auto-generated via `Authors@R`).
+- [x] **A statement of need** clearly stating problems the software is designed to solve and its target audience in README
+- [x] **Installation instructions:** for the development version of package and any non-standard dependencies in README
+- [x] **Vignette(s)** demonstrating major functionality that runs successfully locally
+- [x] **Function Documentation:** for all exported functions in R help
+- [x] **Examples** for all exported functions in R Help that run successfully locally
+- [x] **Community guidelines** including contribution guidelines in the README or CONTRIBUTING, and DESCRIPTION with `URL`, `BugReports` and `Maintainer` (which may be auto-generated via `Authors@R`).
 
 >##### For packages co-submitting to JOSS
 >
->- [ ] The package has an **obvious research application** according to [JOSS's definition](http://joss.theoj.org/about#submission_requirements)
+>- [x] The package has an **obvious research application** according to [JOSS's definition](http://joss.theoj.org/about#submission_requirements)
 >
 >The package contains a `paper.md` matching [JOSS's requirements](http://joss.theoj.org/about#paper_structure) with:
 >
@@ -28,10 +28,10 @@ The package includes all the following forms of documentation:
 
 #### Functionality
 
-- [ ] **Installation:** Installation succeeds as documented.
+- [x] **Installation:** Installation succeeds as documented.
 - [ ] **Functionality:** Any functional claims of the software been confirmed.
-- [ ] **Performance:** Any performance claims of the software been confirmed.
-- [ ] **Automated tests:** Unit tests cover essential functions of the package
+- [x] **Performance:** Any performance claims of the software been confirmed.
+- [x] **Automated tests:** Unit tests cover essential functions of the package
    and a reasonable range of inputs and conditions. All tests pass on the local machine.
 - [ ] **Packaging guidelines**: The package conforms to the rOpenSci packaging guidelines
 
@@ -39,13 +39,7 @@ The package includes all the following forms of documentation:
 
 - [ ] **The author has responded to my review and made changes to my satisfaction. I recommend approving this package.**
 
-Estimated hours spent reviewing:
-
-23/12 - 20 minutes
-24/12 - 15 minutes
-26/12 - 30 minutes
-27/12 - 95 minutes
-28/12 - 120 minutes
+Estimated hours spent reviewing: 4.6
 
 ---
 
@@ -161,3 +155,7 @@ should be
 - I'm unsure about including a package that's not on CRAN in the vignette (`ukboundaries`), something like this should be listed in Suggests, but it's not on CRAN, @skcott do you have any thoughts?
 
 - The first figures in the `sf` section after the join aren't immediately clear to me. The axis lack labels, I'm not really sure what I'm looking at.
+
+#### Meta
+
+- The contributing guidelines mention a `pkgdown` website, this does not exist
