@@ -130,6 +130,8 @@ In find_file_name(years = year, type = type) :
 
 - The Description should include a link to the DfT website.
 
+- Language field should be set, `Language: en-GB`
+
 #### README File(s)
 
 - Use `remotes::install_github()` in place of `devtools::install_github()` in README.

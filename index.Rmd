@@ -189,9 +189,11 @@ devtools::spell_check(pkg_dir)
 
 #### **comments:**
 
-Spellcheck returns some issues that should be addressed, UK English notwithstanding.
+- Spellcheck returns some issues that should be addressed, UK English notwithstanding.
 
-The Description should include a link to the DfT website.
+- The Description should include a link to the DfT website.
+
+- Language field should be set, `Language: en-GB`
 
 ***
 
