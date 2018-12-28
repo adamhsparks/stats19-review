@@ -160,7 +160,7 @@ should be
 
 >Format: Each of the read_*() functions has a format parameter, which, when TRUE adds 
 
-- I'm unsure about including a package that's not on CRAN in the vignette (`ukboundaries`), something like this should be listed in Suggests, but it's not on CRAN, @skcott do you have any thoughts?
+- I'm unsure about including a package that's not on CRAN in the vignette (`ukboundaries`), something like this should be listed in Suggests, but it's not on CRAN, @sckott do you have any thoughts?
 
 - The first figures in the `sf` section after the join aren't immediately clear to me. The axis lack labels, I'm not really sure what I'm looking at.
 
