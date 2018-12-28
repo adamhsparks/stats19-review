@@ -12,7 +12,7 @@ The package includes all the following forms of documentation:
 - [x] **Installation instructions:** for the development version of package and any non-standard dependencies in README
 - [x] **Vignette(s)** demonstrating major functionality that runs successfully locally
 - [x] **Function Documentation:** for all exported functions in R help
-- [x] **Examples** for all exported functions in R Help that run successfully locally
+- [ ] **Examples** for all exported functions in R Help that run successfully locally
 - [x] **Community guidelines** including contribution guidelines in the README or CONTRIBUTING, and DESCRIPTION with `URL`, `BugReports` and `Maintainer` (which may be auto-generated via `Authors@R`).
 
 >##### For packages co-submitting to JOSS
