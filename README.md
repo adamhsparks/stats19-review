@@ -9,7 +9,7 @@ output: github_document
 
 This repo contains files associated with the **rOpenSci** review of
 
-### **`stats19`: ropensci/software-review**  issue [\#NA](https://github.com/ropensci/onboarding/issues/).
+### **`stats19`: ropensci/software-review**  issue [https://github.com/ropensci/software-review/issues/266](https://github.com/ropensci/onboarding/issues/266).
 
 <br>
 
@@ -17,8 +17,7 @@ This repo contains files associated with the **rOpenSci** review of
 ***
 
 ## **Reviewer:** [\@adamhsparks](https://github.com/adamhsparks)
-### Review Submitted:
-**`r cat(sprintf("**Last updated:** %s", Sys.Date()))`**
+### Review Submitted: 28.12.2018
 
 <br>
 
