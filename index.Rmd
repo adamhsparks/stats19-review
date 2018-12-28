@@ -26,7 +26,7 @@ library(sessioninfo)
 
 ## **Reviewer:** [\@adamhsparks](https://github.com/adamhsparks)
 
-### Review Submitted:
+### Review Submitted: 28.12.2018
 **`r cat(sprintf("**Last updated:** %s", Sys.Date()))`**
 
 ***
