@@ -160,7 +160,7 @@ In find_file_name(years = year, type = type) :
 
 should be 
 
->Format: Each of the read_*() functions has a format parameter, which, when TRUE adds 
+>Format: Each of the read_*() functions has a format parameter, which, when TRUE, adds 
 
 - I'm unsure about including a package that's not on CRAN in the vignette (`ukboundaries`), something like this should be listed in Suggests, but it's not on CRAN, @sckott do you have any thoughts?
 
