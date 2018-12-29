@@ -361,7 +361,7 @@ In find_file_name(years = year, type = type) :
 
 - I got caught out when using the interactive features. I read "y = enter" but hit "y" thinking that would work as well as hitting "enter", but R cancelled the operation anyway just as if I'd hit "esc"
 
-- Per a recent conversation with CRAN, you should use `donttest()` rather than `dontrun()` for examples you don't want to be run on CRAN. Then set .travis.yml to run them by using `r_check_args: --as-cran --run-donttest`.
+- Per a recent conversation with CRAN, you should use `donttest()` rather than `dontrun()` for examples you don't want to be run on CRAN. Then set .travis.yml to run them by using `r_check_args: --as-cran --run-donttest`.  **This may not be appropriate in all cases, e.g. interactive functions.**
 
 - When validating user inputs and using `stop()` it's nice to use `call. = FALSE` to simplify the error message that the user receives.
 
